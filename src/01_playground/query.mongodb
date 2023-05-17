@@ -1,0 +1,14 @@
+use ("sample_training");
+db.zips.find({city: "ALPINE"});
+
+//insercion de un documento
+let roberth ={
+    first_name: "roberth david",
+    last_name: "barreto montiel",
+    age : "20 años",
+    address: "carrera 81d #1a-36",
+    country: "COLOMBIA",
+    phone:"3053743287",
+    email:"rdbarreto84@misena.edu.co"
+    
+}
